@@ -1,0 +1,57 @@
+body{
+  background-color: #edf7ff;
+}
+.navbar-material .nav-wrapper .brand-logo img {
+  height: 80px;
+}
+@media (max-width: 768px) {
+  .navbar-material .nav-wrapper .brand-logo img {
+    height: 80px;
+  }
+  .nav-wrapper{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+nav {
+  background-color: #fff;
+  height: 100px;
+}
+.nav-wrapper{
+  padding-top: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
+  font-size: 36px;
+  color: #00528a;
+  margin-top: 15px;
+}
+#nav-mobile{
+  margin-top: 10px;
+}
+#nav-mobile li a{
+  color: #00528a;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.page-footer{
+  background-color: #00528a;
+}
+.footer-copyright{
+  background-color: #003b63 !important;
+}
+.foot-logo{
+  filter: brightness(0) invert(1);
+  width: 150px;
+}
+.btn-large{
+  margin: 10px;
+}
+.row{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.card-nav .card-image img{
+  height: 300px;
+}
