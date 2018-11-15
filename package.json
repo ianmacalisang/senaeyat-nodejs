@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon -e hbs,css,js ./bin/www"
+    "dev:start": "nodemon -e hbs,css,js ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
