@@ -6,5 +6,5 @@ Website for real estate using nodejs with express.
 Upload all files to root
 ```bash
 npm install
-npm dev:start
+npm run dev:start
 ```
